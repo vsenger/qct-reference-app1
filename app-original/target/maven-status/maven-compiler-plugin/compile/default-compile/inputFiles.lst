@@ -1,0 +1,14 @@
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/repository/CustomerRepository.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/repository/OrderRepository.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/CrudApplication.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/controller/CrudController.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/model/Product.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/service/ProductService.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/repository/ProductRepository.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/service/OrderService.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/dto/CustomerDTO.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/service/CustomerService.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/dto/ProductDTO.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/model/Customer.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/dto/OrderDTO.java
+/Users/zongrenl/Documents/ElasticGumby/19032024_demo/amazon-q-transform-demo/src/main/java/com/example/model/Order.java
