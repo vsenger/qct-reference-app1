@@ -12,8 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-//import sun.misc.BASE64Decoder;
-//import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Decoder;
 
 import java.io.IOException;
 import java.util.List;
@@ -67,20 +66,19 @@ public class CrudController {
         return new ResponseEntity<>(createdProduct, HttpStatus.CREATED);
     }
 
-    @PostMapping("/productImage")
+    @PostMapping("/products")
     public ResponseEntity<byte[]> getProductImage(@RequestBody long productId) {
         Product product = productService.getProductById(productId);
         if (product == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         } else {
             final byte[] image;
-            //try {
-                //image = new BASE64Decoder().decodeBuffer(product.getImageBase64());
-                //return new ResponseEntity<>(image, HttpStatus.CREATED);
-                return null;
-            //} catch (IOException e) {
-            //    return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-            //}
+            try {
+                image = new BASE64Decoder().decodeBuffer(product.getImageBase64());
+                return new ResponseEntity<>(image, HttpStatus.CREATED);
+            } catch (IOException e) {
+                return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+            }
         }
     }
 
